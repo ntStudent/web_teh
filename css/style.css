@@ -47,7 +47,7 @@
     margin-right: 5px; /* Отступ слева */
     /*border: 2px solid #ff9300; /* Рамка вокруг текста */
     /*border-radius: 4px;*/
-    padding: 10px 2em;  /*Поля вокруг текста */
+    padding: 10px 1em;  /*Поля вокруг текста */
     /*padding: 0 60px 0 0;*/
   }
   .pages li:hover{
@@ -59,13 +59,21 @@
     /*width: 250px;*/
   }
 
-   .dash li {
-    list-style-type: none; /* Убираем маркеры у списка */
-   }
+ .dash li {
+  list-style-type: none; /* Убираем маркеры у списка */
+ }
 
-   .dash li:before {
-    content: "- "; /* Добавляем в качестве маркера символ */
-   }
+ .dash li:before {
+  content: "- "; /* Добавляем в качестве маркера символ */
+ }
+
+ .dash_step li {
+  list-style-type: none; /* Убираем маркеры у списка */
+ }
+
+ .dash_step li:before{
+  content: "Шаг №:";
+ }
 
   ol{
     /*width: 250px;*/
