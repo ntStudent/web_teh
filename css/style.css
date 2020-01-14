@@ -170,8 +170,68 @@
   }
 
   .foot{
+    font: 0.7em Arial,sans-serif;
     padding-top: 40px;
   }
+
+  .foot1{
+    font: 0.7em Arial,sans-serif;
+    padding: 20px;
+  }
+
+ /* .help_foot{
+    background: #fff;
+    padding: 10px 2em;
+  }*/
+
+  ul.help_foot {
+    /*width: 250px;*/
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 0; /* Значение полей */
+  }
+
+
+
+  ul.help_foot li {
+    font: 0.7em Arial,sans-serif;
+    /*background: #fff;*/
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    /*border: 2px solid #ff9300; /* Рамка вокруг текста */
+    /*border-radius: 4px;*/
+    padding: 5px 1em;  /*Поля вокруг текста */
+    /*padding: 0 60px 0 0;*/
+  }
+
+  .help_foot1 a, .help_foot2 a, .help_foot3 a{
+    padding: 5px 1em;
+  }
+
+
+  .help_foot1 :hover{
+    /*padding: 5px 1em;*/
+    background: #d3d3d3;
+    border-bottom: 3px solid #090;
+  }
+
+  .help_foot2 :hover{
+    /*padding: 5px 1em;*/
+    background: #d3d3d3;
+    border-bottom: 3px solid #090;
+  }
+
+  .help_foot3 :hover{
+    /*padding: 5px 1em;*/
+    background: #d3d3d3;
+    border-bottom: 3px solid #090;
+  }
+
+  .help_foot a:hover{
+    color: #000;
+    /*border-bottom: 3px solid #090;*/
+  }
+
+
 
   .text_name{
     /*margin: 44px;*/
